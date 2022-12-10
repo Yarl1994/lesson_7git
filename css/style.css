@@ -1,0 +1,428 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.bg-wallpaper {
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-image: url(../img/harley-wings-logo-png.png),
+    url(../img/Harley-Davidson-Softail-Breakout-2014-3840x2160-002.jpg);
+  background-position: 100% 15%, 20% 80%;
+  background-size: 500px, cover;
+  min-height: 100vh;
+  margin: 0;
+  top: 0;
+  z-index: -1;
+  position: fixed;
+}
+
+.bg-wallpaperhd {
+  background-color: rgb(185, 185, 185);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-image: url(../img/758452.jpg);
+  background-position: 20% 80%;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  top: 0;
+  z-index: -1;
+  position: fixed;
+}
+
+.bg-imagehd {
+  background-color: rgb(185, 185, 185);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-image: url(../img/nature-images-1440x900-19.jpg);
+  background-position: 20% 80%;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  top: 0;
+  z-index: -1;
+  position: fixed;
+}
+
+.bg-wiprhd {
+  background-color: rgb(185, 185, 185);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-image: url(../img/Harley-Davidson-Heritage-Softail-Classic-2014-2560x1440-003.jpg);
+  background-position: 20% 80%;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  top: 0;
+  z-index: -1;
+  position: fixed;
+}
+
+.bg-image {
+  background-color: rgb(185, 185, 185);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-image: url(../img/harley_ukraine.jpg);
+  background-position: 20% 80%;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  top: 0;
+  z-index: -1;
+  position: fixed;
+}
+
+.texture {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/harley_davidson_logo_outline_white_texture.jpg);
+  background-size: 500px;
+  background-repeat: repeat;
+  background-position: top;
+  z-index: -1;
+  top: 0;
+  position: fixed;
+}
+
+.bg-imagefontent {
+  background-color: rgb(185, 185, 185);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-image: url(../img/511795.jpg);
+  background-position: 20% 80%;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  z-index: -1;
+  position: fixed;
+}
+
+.bg-imagefon {
+  background-color: rgb(185, 185, 185);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-image: url(../img/wallpaper-breakout.jpg);
+  background-position: 20% 80%;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  z-index: -1;
+  position: fixed;
+}
+
+.header {
+  background-color: rgba(74, 71, 74, 0.985);
+  text-align: center;
+  top: 0;
+  width: 100vw;
+  margin: auto;
+  position: fixed;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  margin: auto;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.616);
+  color: rgb(242, 245, 248);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: rgba(74, 71, 74, 0.985);
+  text-align: center;
+  bottom: 0;
+  margin: auto;
+  width: 100vw;
+  position: fixed;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.fa-brands {
+  font-size: 2rem;
+  color: rgb(247, 162, 4);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+a,
+.visitor-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: rgb(11, 10, 10);
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(247, 162, 4);
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: rgb(236, 234, 234);
+  margin-left: 15px;
+}
+
+h3,
+.visitor-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(184, 8, 8);
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+.f a[href="#top"],
+h3 {
+  color: aliceblue;
+}
+
+li {
+  color: rgb(251, 251, 246);
+  font-size: 110%;
+  padding: 2px;
+  margin-left: 10px;
+}
+
+li.new::after {
+  content: "new";
+  color: aliceblue;
+  background-color: orange;
+  font-size: 100%;
+  padding: 2px;
+  margin-left: 10px;
+}
+
+fieldset {
+  max-width: 500px;
+  margin: 25px auto;
+  background-color: rgb(148, 7, 7);
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden;
+}
+
+.different-first-letter::first-letter {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(184, 8, 8);
+  font-weight: normal;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar-link {
+  display: block;
+  padding: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5em;
+  margin: 20px 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.slide-gallery {
+  border: 10px solid rgba(216, 216, 216, 0.853);
+}
+
+.slide-gallery:hover {
+  border-color: transparent;
+}
+
+.part-title {
+  margin-left: 15px;
+}
+
+.navbar-link:hover {
+  color: aliceblue;
+  transform: scale(1.3);
+}
+
+.article-name {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 0ch;
+}
+
+.further-links:hover {
+  text-decoration: none;
+  color: rgb(184, 8, 8);
+}
+
+.name-of-the-article {
+  text-align: center;
+}
+
+.form-group-sm {
+  margin: 10px 0 5px;
+}
+
+.form-group-sm:hover {
+  outline: 2px dotted rgba(40, 6, 5, 0.956);
+}
+
+.form-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.comments-links {
+  color: rgba(40, 6, 5, 0.956);
+}
+
+.contacts-info {
+  padding: 10px 10px;
+}
+
+.list-marker {
+  list-style-image: url(../css/icons-css/telegramlogo.png);
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.list-marker-1 {
+  list-style-image: url(../css/icons-css/facebook.png);
+  font-size: 20px;
+}
+
+.list-marker-2 {
+  list-style-image: url(../css/icons-css/instagram.png);
+  font-size: 20px;
+}
+
+.list-marker-3 {
+  list-style-image: url(../css/icons-css/twitter.png);
+  font-size: 20px;
+}
+
+.list-marker-4 {
+  list-style-image: url(../css/icons-css/whatsapp.png);
+  font-size: 20px;
+}
+
+.list-marker-5 {
+  list-style-image: url(../css/icons-css/telegram.png);
+  font-size: 20px;
+}
+
+.list-marker-6 {
+  list-style-image: url(../css/icons-css/location.png);
+  font-size: 20px;
+}
+
+.list-marker-7 {
+  list-style-image: url(../css/icons-css/telephone.png);
+  font-size: 20px;
+}
+
+.list-marker-8 {
+  list-style-image: url(../css/icons-css/mail.png);
+  font-size: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 10px;
+}
+
+input[type="file"] {
+  padding: 0;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  resize: vertical;
+  min-height: 75px;
+  max-height: 35vh;
+}
+
+legend {
+  transform: translateY(-10px);
+  color: rgba(164, 159, 164, 0.985);
+}
+
+.capitalized {
+  text-transform: capitalize;
+}
+
+.contacts-info {
+  text-align: center;
+}
